@@ -6,7 +6,7 @@ Dynamic Bayesian Networks (DBN) have been widely used to recover gene regulatory
 -    We propsed an improved structural EM algorithm to learn the HMDBN. It dramatically reduces searching space, thereby substantially improving computational efficiency. 
 -    We derived a novel generalized Bayesian Information Criterion under the non-stationary assumption (called `BWBIC`), which can help significantly improve the reconstruction accuracy and largely reduce over-fitting. 
 -    The re-estimation formulas for all parameters of our model are derived, enabling us to avoid reliance on parameter settings. 
-Compared to the state-of-the-art methods, the experimental evaluation of our proposed method on both synthetic and real biological data demonstrates more stably high prediction accuracy and significantly improved computation efficiency, even with no prior knowledge and parameter settings.
+-    Compared to the state-of-the-art methods, the experimental evaluation of our proposed method on both synthetic and real biological data demonstrates more stably high prediction accuracy and significantly improved computation efficiency, even with no prior knowledge and parameter settings.
 
 
 ## Citation
