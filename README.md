@@ -8,6 +8,11 @@ Dynamic Bayesian Networks (DBN) have been widely used to recover gene regulatory
 -    The re-estimation formulas for all parameters of our model are derived, enabling us to avoid reliance on parameter settings. 
 -    Compared to the state-of-the-art methods, the experimental evaluation of our proposed method on both synthetic and real biological data demonstrates more stably high prediction accuracy and significantly improved computation efficiency, even with no prior knowledge and parameter settings.
 
+## Depends
+Matlab
+
+## Running example
+
 
 ## Citation
 Shijia Zhu & Yadong Wang, Hidden Markov induced Dynamic Bayesian Network for recovering time evolving gene regulatory networks ,Scientific Reports 5: 17841 (2015), doi:10.1038/srep17841
