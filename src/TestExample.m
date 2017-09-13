@@ -1,5 +1,6 @@
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One toy example
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % We assume that there are N=3 network nodes X1,X2, and X3 
 % in a network with two edges:
 % X1 -> X2
@@ -8,8 +9,11 @@
 % There are two transition times:
 % t1 = 200 for X2, and t2 =300 for X3.
 
-addpath('C:\Users\zhus02\Dropbox\SoftwareForReview_bioinformatics\revised2.1\HMDBN')
-data=load('data.txt');
+% Install HMDBN
+addpath('.\HMDBN') 
+% Load testing data
+data=load('data.txt'); 
+% Run HMDBN and calculate the running time
 time1 = cputime;
 [dag hiddenGraph_Ps SampleDistribution] = hmdbn_structEM(data);
 ElapsedTime = cputime - time1;
