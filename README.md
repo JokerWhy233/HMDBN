@@ -9,9 +9,9 @@ Dynamic Bayesian Networks (DBN) have been widely used to recover gene regulatory
 -    Compared to the state-of-the-art methods, the experimental evaluation of our proposed method on both synthetic and real biological data demonstrates more stably high prediction accuracy and significantly improved computation efficiency, even with no prior knowledge and parameter settings.
 
 ## Depends
-Matlab
+- Matlab
 
-## Running example
+## Tutorial
 
 
 ## Citation
