@@ -1,4 +1,6 @@
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%   One toy example
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % We assume that there are N=3 network nodes X1,X2, and X3 
 % in a network with two edges:
 % X1 -> X2
@@ -18,4 +20,3 @@ ElapsedTime = cputime - time1;
 
 % Demonstrate the distribution of each edge over time.
 hmdbn_demonstrate(data,hiddenGraph_Ps,SampleDistribution);
-
