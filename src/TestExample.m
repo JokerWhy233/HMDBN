@@ -1,14 +1,5 @@
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Requirement%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Install The Bayes Net Toolbox for Matlab, 
-% Written by Kevin Murphy, 1997--2002,
-% https://code.google.com/p/bnt/ 
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% One very simple toy example
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % We assume that there are N=3 network nodes X1,X2, and X3 
 % in a network with two edges:
 % X1 -> X2
